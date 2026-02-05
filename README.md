@@ -1,7 +1,7 @@
 # Lab 4: Seattle Parks Thematic Web Map
 
 ## Live Web Map
-Access the live version of my map here: [INSERT YOUR GITHUB PAGES URL HERE]
+Access the live version of my map here: [(https://willyh23.github.io/geog458-lab4_qtiles/lab4_tiles/Mapnik/indext.html)]
 
 ---
 
