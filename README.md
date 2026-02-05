@@ -19,6 +19,6 @@ Below are the details for the thematic tile set generated for this project:
 Below are screenshots representing the layers of the map:
 
 ### Thematic Parks Layer
-![Parks Layer Screenshot](screenshots/parks_layer.png)
+![Parks Layer Screenshot](parks.png)
 
-*(Note: To make the image above work, create a folder called 'screenshots', take a screenshot of your map, name it 'parks_layer.png', and put it in that folder.)*
+
