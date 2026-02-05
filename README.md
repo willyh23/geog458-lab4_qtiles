@@ -19,7 +19,6 @@ Below are the details for the thematic tile set generated for this project:
 Below are screenshots representing the layers of the map:
 
 ### Thematic Parks Layer
-![Parks Layer Screenshot](geog458-lab4_qtiles
-/parks.png)
+![Parks Layer Screenshot](Parks.png)
 
 
