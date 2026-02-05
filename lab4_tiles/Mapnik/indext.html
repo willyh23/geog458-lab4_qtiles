@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 4 Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { margin:0; padding:0; }
+        #map { position: absolute; top:0; bottom:0; right:0; left:0; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        // Initialize the map centered on Seattle
+        var map = L.map('map').setView([47.606, -122.332], 12);
+
+        // Load YOUR tiles
+        // The path '{z}/{x}/{y}.png' matches the folders QTiles created
+        L.tileLayer('{z}/{x}/{y}.png', {
+            minZoom: 10,
+            maxZoom: 15,
+            tms: false,
+            attribution: 'Mapbox | Seattle Open Data'
+        }).addTo(map);
+    </script>
+</body>
+</html>
